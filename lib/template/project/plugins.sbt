@@ -23,4 +23,6 @@ addSbtPlugin("com.twitter" %% "sbt-package-dist" % "1.0.4")
 
 addSbtPlugin("com.twitter" %% "sbt11-scrooge" % "1.0.0")
 
+addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.0.0")
+
 libraryDependencies += "com.twitter" %% "scalatest-mixins" % "1.0.3"
